@@ -1,23 +1,20 @@
 package com.tadame.dominandoandroiid
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import com.tadame.dominandoandroiid.databinding.ActivityMainBinding
 import android.content.Intent
+import android.os.Bundle
 import android.widget.Toast
-
-
+import androidx.appcompat.app.AppCompatActivity
+import com.tadame.dominandoandroiid.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private  lateinit var binding: ActivityMainBinding         //variavel privada que armazena nosso layout
+    private lateinit var binding: ActivityMainBinding // variavel privada que armazena nosso layout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)     //declara o layout
-        setContentView(binding.root)                            //inicia layout
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater) // declara o layout
+        setContentView(binding.root) // inicia layout
 
         binding.buttonToast.setOnClickListener {
             val texto = binding.editTexto.text.toString()
@@ -30,6 +27,5 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("idade", 35)
             startActivity(intent)
         }
-
     }
 }
