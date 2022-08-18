@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dominando Android</string>
+    <string name="main_button_tela2">TELA 2</string>
+    <string name="main_button_toast">EXIBIR TOAST</string>
+</resources>
