@@ -27,5 +27,19 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("idade", 35)
             startActivity(intent)
         }
+
+        binding.buttonParcel.setOnClickListener {
+            val cliente = Cliente(1, "Glauber")
+            val intent = Intent(this, Tela2Activity::class.java)
+            intent.putExtra("cliente", cliente)
+            startActivity(intent)
+        }
+
+        binding.buttonSerializable.setOnClickListener {
+            val intent = Intent(this, Tela2Activity::class.java)
+            intent.putExtra("pessoa", Pessoa("Nelson", 35))
+            startActivity(intent)
+        }
+
     }
 }
