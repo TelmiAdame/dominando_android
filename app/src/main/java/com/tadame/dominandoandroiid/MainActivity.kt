@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.tadame.dominandoandroiid.databinding.ActivityMainBinding
+import org.parceler.Parcels
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.buttonParcel.setOnClickListener {
             val cliente = Cliente(1, "Glauber")
             val intent = Intent(this, Tela2Activity::class.java)
-            intent.putExtra("cliente", cliente)
+            intent.putExtra("cliente", Parcels.wrap(cliente))
             startActivity(intent)
         }
 
