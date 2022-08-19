@@ -2,6 +2,7 @@ package com.tadame.dominandoandroiid
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.tadame.dominandoandroiid.databinding.ActivityMainBinding
@@ -42,5 +43,29 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+    override fun onStart() {
+        super.onStart()
+        Log.i("NGVL", "Tela1::onStart")
+    }
+    override fun onResume() {
+        super.onResume()
+        Log.i("NGVL", "Tela1::onResume")
+    }
+    override fun onRestart() {
+        super.onRestart()
+        Log.i("TA", "Tela1:onRestart()")
+    }
+    override fun onPause() {
+        super.onPause()
+        Log.i("TA", "Tela1::onPause")
+    }
+    override fun onStop() {
+        super.onStop()
+        Log.i("TA", "Tela1::onStop")
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i("TA", "Tela1::onDestroy")
     }
 }
