@@ -52,6 +52,7 @@ class Tela2Activity : AppCompatActivity() {
         Log.i("TA", "Tela2::onStop")
     }
     override fun onDestroy() {
+
         super.onDestroy()
         Log.i("TA", "Tela2::onDestroy")
     }

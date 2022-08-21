@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DominandoAndroid/app/src/main/res/layout/activity_finalizacao_atividade.xml" value="0.25416666666666665" />
         <entry key="..\:/DominandoAndroid/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/DominandoAndroid/app/src/main/res/layout/activity_salvando1.xml" value="0.25416666666666665" />
         <entry key="..\:/DominandoAndroid/app/src/main/res/layout/activity_tela2.xml" value="0.19270833333333334" />
         <entry key="..\:/DominandoAndroid/app/src/main/res/layout/ex_card.xml" value="0.2" />
         <entry key="..\:/DominandoAndroid/app/src/main/res/layout/ex_constraint.xml" value="0.4" />
