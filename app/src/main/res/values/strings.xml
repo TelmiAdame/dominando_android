@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Dominando Android</string>
+    <string name="app_name">Orientação</string>
     <string name="main_button_tela2">TELA 2</string>
     <string name="main_button_toast">EXIBIR TOAST</string>
     <string name="main_button_parcel">Parcelable via Intent</string>
     <string name="main_button_serializable">Serializable via Intent</string>
     <string name="tela2_texto1">Nome: %1$s / Código: %2$d</string>
     <string name="tela2_texto2">Nome: %1$s / Idade: %2$d</string>
-
+    <string name="label_name">Digite o nome</string>
+    <string name="btn_add">Adicionar</string>
 </resources>
